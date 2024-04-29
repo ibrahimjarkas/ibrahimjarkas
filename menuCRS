@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #B2EBF2;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #00897B;
+}
+
+header p {
+    color: #005662;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 2px solid #b2ebf2;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 300px;
+    text-align: center;
+}
+
+.menu-item h2 {
+    color: #00897B;
+}
+
+.menu-item .item-price {
+    font-size: 24px;
+    color: #555;
+}
+
+.menu-item .item-description {
+    color: #666;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #B2EBF2;
+    color: #006064;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Enjoy our exquisite dishes!</p>
+    </header>
+    <section class="menu">
+        <article class="menu-item">
+            <h2 class="item-name">Salmon Fillet</h2>
+            <p class="item-price">$25.00</p>
+            <p class="item-description">Grilled salmon fillet with a lemon herb sauce.</p>
+        </article>
+        <article class="menu-item">
+            <h2 class="item-name">Classic Caesar Salad</h2>
+            <p class="item-price">$12.00</p>
+            <p class="item-description">Crisp romaine lettuce, parmesan cheese, and croutons.</p>
+        </article>
+        <article class="menu-item">
+            <h2 class="item-name">Beef Burger</h2>
+            <p class="item-price">$15.00</p>
+            <p class="item-description">Juicy beef burger with cheese, lettuce and tomato.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Contact us: contact@restaurant.com</p>
+    </footer>
+</body>
+</html>
